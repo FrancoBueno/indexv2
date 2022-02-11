@@ -1,0 +1,24 @@
+body{
+margin: 0;
+background: linear-gradient(to right, rgb(47, 80, 60), rgb(35, 85, 126));
+height: 100vh;
+background-size: cover;
+}
+model-viewer:hover{
+    filter: blur(0px);
+}
+model-viewer{
+    width: 100vh;
+    height: 100vh;
+}
+h1{
+    color: white;
+}
+.style{
+    background: radial-gradient(rgb(85, 155, 120), rgb(18, 11, 112));
+}
+.img{
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
