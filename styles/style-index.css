@@ -1,6 +1,6 @@
 body{
 margin: 0;
-background: linear-gradient(to right, rgb(47, 80, 60), rgb(35, 85, 126));
+background: linear-gradient(rgb(255, 255, 255) 80%, rgb(133, 131, 131));
 height: 100vh;
 background-size: cover;
 }
@@ -12,7 +12,9 @@ model-viewer{
     height: 100vh;
 }
 h1{
-    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    text-align: center;
 }
 .style{
     background: radial-gradient(rgb(85, 155, 120), rgb(18, 11, 112));
@@ -21,4 +23,10 @@ h1{
     height: 500px;
     margin-top: 30px;
     margin-left: 40px;
+}
+.logito{
+    margin-right: 300px;
+    margin-left: 70px;
+    height: 40px;
+    margin-top: 10px;
 }
