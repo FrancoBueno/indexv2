@@ -1,32 +1,15 @@
-body{
-margin: 0;
-background: linear-gradient(rgb(255, 255, 255) 80%, rgb(133, 131, 131));
-height: 100vh;
-background-size: cover;
+*{
+    margin: 0%;
+    padding: 0;
 }
-model-viewer:hover{
-    filter: blur(0px);
+.hd{
+    padding-right: 30px;
 }
-model-viewer{
-    width: 100vh;
-    height: 100vh;
-}
-h1{
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: black;
-    text-align: center;
-}
-.style{
-    background: radial-gradient(rgb(85, 155, 120), rgb(18, 11, 112));
-}
-.img{
+.crsl{
+    width: 500px;
     height: 500px;
-    margin-top: 30px;
-    margin-left: 40px;
 }
-.logito{
-    margin-right: 300px;
-    margin-left: 70px;
-    height: 40px;
-    margin-top: 10px;
+.preheader{
+    height: 20px;
+    background-color:skyblue;
 }

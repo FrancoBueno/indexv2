@@ -36,13 +36,18 @@
           <a class="nav-link disabled text-center" href="#" tabindex="-1" aria-disabled="true">Next...</a>
         </li>
       </ul>
+      <div class="clearfix">
+        <div class="spinner-border float-end text-success" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
     <div class="container">
         <div class="row sf">
             <div class="col">
                 <div class="text-start">
                 </div>
                 <h1 class="fw-bold text-center pt-5 mb-5"><u>Welcome to QARD</u></h1>
-                <form action="#">
+                <form action="index.html">
                     <div class="mb-4">
                         <label for="Email" class="form-label">Email:</label>
                         <input type="email" class="form-control" name="email">
@@ -61,13 +66,19 @@
                     <span class="">¿You do not have an account? <a href="#" class="text-primary">Sign up here</a></span>
                 </form>
                 <div class="logins">
-                    <a href="#"><img src="img/linkedin.png" width="40px" alt="" ></a>
-                    <a href="#"><img src="img/google.png" width="40px" alt=""></a>
+                    <button type="button" class="btn btn-outline-danger btn-lg btn-block butt"><img src="../img/google.png" width="34px">  Google</button>
+                    <button type="button" class="btn btn-outline-primary btn-lg btn-block butt"><img src="../img/linkedin.png" width="34px">  Linkedin</button>
                 </div>
             </div>
-            <div class="col st">
-                <img src="../img/ID Card-bro.png" alt="" class="img">
-                </div>
+            <div class="col st ss">
+                <div class="card bg-dark text-white">
+                    <img src="../img/ID Card-bro.png" class="card-img img" alt="...">
+                    <div class="card-img-overlay ss">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                  </div>
             </div>
         </div>
     </div>

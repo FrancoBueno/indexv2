@@ -4,17 +4,11 @@ background: linear-gradient(rgb(255, 255, 255) 80%, rgb(133, 131, 131));
 height: 100vh;
 background-size: cover;
 }
-model-viewer:hover{
-    filter: blur(0px);
-}
-model-viewer{
-    width: 100vh;
-    height: 100vh;
-}
 h1{
     font-family: 'Open Sans Condensed', sans-serif;
     color: black;
     text-align: center;
+    
 }
 .style{
     background: radial-gradient(rgb(85, 155, 120), rgb(18, 11, 112));
@@ -30,3 +24,16 @@ h1{
     height: 40px;
     margin-top: 10px;
 }
+.butt{
+    margin-top: 10px;
+}
+.card-img-top{
+    margin-top: 90px;
+}
+.ss{
+    height: 100%;
+}
+@media screen and (max-width: 640px) { 
+    .column {
+       width: 50%;
+}}
