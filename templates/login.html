@@ -20,33 +20,30 @@
     <link rel="shortcut icon" href="../img/LOGO QUARD 2.ico">
 </head>
 <body>
-        <ul class="nav justify-content-start">
-            <img src="../img/LOGO QARD 3.png" width="120px" class="logito">
-        <ul class="nav justify-content-center">
-        <li class="nav-item ">
-          <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link text-success" href="#">QARD-Info</a>
-        </li>
-        <li class="nav-item justify-content-center">
-          <a class="nav-link text-success href="#">Team</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link disabled text-center" href="#" tabindex="-1" aria-disabled="true">Next...</a>
-        </li>
+  <!-- Header -->
+  <div class="loader"></div>
+  <input type="checkbox" id="check">
+  <label for="check">
+      <img src="../img/menu.png" width="50px" id="btn">
+      <img src="../img/cancelar.png" width="50px" id="cancel">
+  </label>
+  <div class="sidebar">
+    <div class="loader"></div>
+    <header><img src="../img/WhatsApp Image 2022-02-20 at 15.51.00.jpeg"> </header>
+      <ul>
+          <li><a href="../templates/index.html"><img src="../img/menu.png" width="30px" class="iconito">Menu</a></li>
+          <li><a href="#"><img src="../img/atencion-al-cliente.png" width="30px" class="iconito">Contact</a></li>
+          <li><a href="#"><img src="../img/team.png" width="30px" class="iconito">QARD - Team </a></li>
+          <li><a href="#"><img src="../img/linkedin.png" width="30px" class="iconito">Linkedin</a></li>
+          <li><a href="#"><img src="../img/silueta-del-logo-de-github-en-un-cuadrado.png" width="30px" class="iconito">Github-Team</a></li>
       </ul>
-      <div class="clearfix">
-        <div class="spinner-border float-end text-success" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
+  </div>
     <div class="container">
         <div class="row sf">
             <div class="col">
                 <div class="text-start">
                 </div>
-                <h1 class="fw-bold text-center pt-5 mb-5"><u>Welcome to QARD</u></h1>
+                <img src="../img/LOGO QARD 3.png"class="logito">
                 <form action="index.html">
                     <div class="mb-4">
                         <label for="Email" class="form-label">Email:</label>
@@ -71,13 +68,7 @@
                 </div>
             </div>
             <div class="col st ss">
-                <div class="card bg-dark text-white">
                     <img src="../img/ID Card-bro.png" class="card-img img" alt="...">
-                    <div class="card-img-overlay ss">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text">Last updated 3 mins ago</p>
-                    </div>
                   </div>
             </div>
         </div>
@@ -90,5 +81,11 @@
 <script nomodule
 src="https://unpkg.com/@google/model-viewer@v0.9.0/dist/model-viewer-legacy.js">
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+  $(window).load(function() {
+      $(".loader").fadeOut("slow");
+  });
+  </script>
 </body>
 </html>
